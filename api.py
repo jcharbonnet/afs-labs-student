@@ -4,7 +4,7 @@ from flask import session, request
 import stripe
 from model import db, Customer, Order
 import arrow
-
+#test
 
 def split_params(param_list):
     params = []
