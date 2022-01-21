@@ -91,7 +91,8 @@
         </form>
 {% endraw %}
 {% else %}
-	{% raw   <form name="deliveryOptions" ng-controller="FormController as formCtrl" ng-submit="deliveryOptions.$valid && validateDelivery()" novalidate>
+{% raw %}
+<form name="deliveryOptions" ng-controller="FormController as formCtrl" ng-submit="deliveryOptions.$valid && validateDelivery()" novalidate>
 		        <label>Delivery is a flat $5 fee</label><br>
 			        <div>
 					  <div ng-if="customer.street_address">
